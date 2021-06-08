@@ -111,7 +111,8 @@ input
     color: var(--link) !important;
 }
 
-.searchButton
+.searchButton,
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button
 {
     background: var(--link) !important;
     color: var(--lavender-blue) !important;
