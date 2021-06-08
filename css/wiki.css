@@ -154,4 +154,9 @@ body::-webkit-scrollbar-button
     background-color: var(--lavender-blue) !important;
 }
 
+/*Not so important*/
+img[alt="Wikipedia-logo-v2-bw.svg"]
+{
+    filter: invert() !important;
+}
 

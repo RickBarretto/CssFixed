@@ -29,7 +29,7 @@
             },
             // wiki -> en
             {
-                "matches" : ["*://en.wikipedia.org/*"],
+                "matches" : ["*://*.wikipedia.org/*"],
                 "css" : ["css/wiki.css"]
             }
         ]
