@@ -113,19 +113,6 @@ body footer .footer-links a
     text-decoration: none !important;
 }
 
-#up-button
-{
-    color: var(--lavender-blue) !important;
-    border: 2px solid var(--lavender-blue) !important;
-    width: 2rem;
-}
-
-#up-button:hover
-{
-    color: var(--gunmetal) !important;
-    background: var(--lavender-blue) !important;
-}
-
 .single img {
     width: 40rem !important;
     margin: 2rem auto !important;
@@ -146,7 +133,8 @@ body::-webkit-scrollbar-button
 }
 
 /*Hiding because it's broken on Brave Browser*/
-.menu > ul
+.menu > ul,
+#up-button
 {
     display: none;
 }
