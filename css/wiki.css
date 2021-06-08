@@ -91,7 +91,7 @@ a > span
 td > h2,
 div > h2,
 th,
-iw-resultset
+.mw-searchresults-has-iw .iw-resultset
 {
     color: var(--lavender-blue) !important;
     background: var(--gunmetal) !important;
