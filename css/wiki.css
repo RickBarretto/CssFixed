@@ -90,7 +90,8 @@ a > span
 
 td > h2,
 div > h2,
-th
+th,
+iw-resultset
 {
     color: var(--lavender-blue) !important;
     background: var(--gunmetal) !important;
