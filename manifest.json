@@ -1,0 +1,29 @@
+{
+
+    "name": 
+        "FixingCss",
+    "description": 
+        "It changes my favorites website's Css. I love read, but some websites makes it boring. So, I'm using Chrome Extension's Css Injection feature.",
+    "version": 
+        "1.0",
+    "homepage_url":
+        "https://github.com/rickbarretto/",
+    "manifest_version": 
+        3,
+  
+    "permissions": 
+    [ "contextMenus" , "activeTab" ],
+  
+    "content_scripts": 
+        [
+            { 
+                "matches" : ["*://google.com/*"],
+                "css" : ["test.css"] 
+            },
+            {
+                "matches" : ["*://www.akitaonrails.com/*"],
+                "css" : ["css/akita.css"]
+            }
+        ]
+
+}

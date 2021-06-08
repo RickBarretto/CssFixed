@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+:root 
+{
+    --gunmetal: #30343fff;
+    --ghost-white: #fafaffff;
+    --lavender-blue: #e4d9ffff;
+    --link: #e83e8c;
+}
+
+h2
+{
+    font-size: 3rem !important;
+}
+
+ul
+{
+    font-size: 2rem !important;
+}
+
+h2, h3, h4, p, ul,
+.container > .post-title > h3
+{
+    color: var(--lavender-blue) !important;
+}
+
+p
+{
+    text-align: justify !important;
+}
+
+a
+{
+    color: var(--link) !important;
+    text-decoration: underline !important;
+}
+
+body .posts-group a
+{
+    text-decoration: none !important;
+}
+
+.texts > a,
+.texts > a > h3,
+.texts > h3
+{
+    color: var(--gunmetal) !important;
+}
+
+iframe
+{
+    width: 100% !important;
+}
+
+body 
+{
+    background: var(--gunmetal) !important;
+}
+
+body header
+{
+    box-shadow:black 0 0 5rem !important;
+    border-bottom: 0 solid transparent !important; 
+}
+
+body header .row .col-md-7 .menu
+{
+    color: var(--lavender-blue) !important;
+    background: var(--gunmetal) !important;
+}
+
+body header .row .col-md-5 .title,
+body .posts-group a .group-title,
+body .posts-group a .group-title > h3,
+body .posts-group .posts .post .texts
+{
+    color: var(--gunmetal) !important;
+    background: var(--lavender-blue) !important;
+    text-decoration: none !important;
+}
+
+body footer
+{
+    background: var(--gunmetal) !important;
+    box-shadow: inset black 0 0 10px !important;
+    color: var(--lavender-blue) !important;  
+}
+
+body footer .footer-links a
+{
+    color: var(--lavender-blue) !important; 
+    font-size: 50%;
+    text-decoration: none !important;
+}
+
+#up-button
+{
+    color: var(--lavender-blue) !important;
+    border: 2px solid var(--lavender-blue) !important;
+    width: 2rem;
+}
+
+#up-button:hover
+{
+    color: var(--gunmetal) !important;
+    background: var(--lavender-blue) !important;
+}
+
+.single img {
+    width: 40rem !important;
+    margin: 2rem auto !important;
+}
+
+body::-webkit-scrollbar,
+body::-webkit-scrollbar-corner
+{
+    width: 1.5em !important;
+    background: var(--gunmetal) !important;
+    box-shadow: inset black 0 0 10px !important;
+}
+   
+body::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-button
+{
+    background-color: var(--lavender-blue) !important;
+}
