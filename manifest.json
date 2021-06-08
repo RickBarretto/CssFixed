@@ -1,18 +1,18 @@
 {
 
     "name": 
-        "FixingCss",
+        "CssFixed!",
     "description": 
         "It changes my favorites website's Css. I love read, but some websites makes it boring. So, I'm using Chrome Extension's Css Injection feature.",
     "version": 
-        "1.0",
+        "1.2",
     "homepage_url":
-        "https://github.com/rickbarretto/",
+        "https://github.com/rickbarretto/CssFixed",
     "manifest_version": 
         3,
   
     "permissions": 
-    [ "contextMenus" , "activeTab" ],
+    ["activeTab" ],
   
     "content_scripts": 
         [
