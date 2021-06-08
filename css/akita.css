@@ -6,6 +6,14 @@
     --ghost-white: #fafaffff;
     --lavender-blue: #e4d9ffff;
     --link: #e83e8c;
+    --orange: #FB542B;
+    --purple: #4f30ab;
+    --pink: #a3278f;
+}
+
+body
+{
+    font-family: 'Merriweather', serif !important;
 }
 
 h2
@@ -22,6 +30,7 @@ h2, h3, h4, p, ul,
 .container > .post-title > h3
 {
     color: var(--lavender-blue) !important;
+    font-family: 'Merriweather', serif !important;
 }
 
 p
@@ -77,6 +86,11 @@ body .posts-group .posts .post .texts
     color: var(--gunmetal) !important;
     background: var(--lavender-blue) !important;
     text-decoration: none !important;
+}
+
+.container
+{
+    padding-top: 120px !important;
 }
 
 body footer
