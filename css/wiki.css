@@ -11,6 +11,12 @@
     --pink: #a3278f;
 }
 
+::selection
+{
+    background: var(--pink);
+    color: var(--ghost-white);
+}
+
 body
 {
     font-family: 'Merriweather', serif !important;
