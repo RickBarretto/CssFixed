@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+:root 
+{
+    --gunmetal: #30343fff;
+    --ghost-white: #fafaffff;
+    --lavender-blue: #e4d9ffff;
+    --link: #e83e8c;
+    --orange: #FB542B;
+    --purple: #4f30ab;
+    --pink: #a3278f;
+}
+
+body
+{
+    font-family: 'Merriweather', serif !important;
+    font-size: 130%;
+    width: auto;
+}
+
+body, div, td, .infobox, table
+{
+    background: var(--gunmetal) !important;
+    color: var(--lavender-blue) !important;
+    border-color: transparent !important;
+}
+
+.infobox, table
+{
+    border-color: var(--link) !important;
+}
+
+#mw-head
+{
+    box-shadow: black 0 0 5rem !important;
+}
+
+h1
+{
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0;
+    background: var(--gunmetal) !important;
+}
+.mw-body
+{
+    position: absolute !important;
+    overflow: visible !important;
+}
+.vector-body
+{
+    position: static !important;
+}
+
+h1, h2
+{
+    border-bottom: 1px solid var(--lavender-blue) !important;
+}
+
+h1, h2, h3, h4, p, ul, #pt-anonuserpage
+{
+    color: var(--lavender-blue) !important;
+    font-family: 'Merriweather', serif !important;
+}
+
+p, ul
+{
+    text-align: justify !important;
+    max-width: 720px;
+    margin: 0 auto !important;
+}
+
+a,
+a > span
+{
+    color: var(--link) !important;
+    text-decoration: underline !important;
+}
+
+.mw-wiki-logo, .mwe-math-fallback-image-inline
+{
+    filter: invert();
+}
+
+.vector-menu-tabs li
+{
+    background: var(--gunmetal) !important;
+}
+
+td > h2,
+div > h2,
+th
+{
+    color: var(--lavender-blue) !important;
+    background: var(--gunmetal) !important;
+    border-color: transparent !important;
+}
+
+.vector-menu-tabs, 
+.vector-menu-tabs a, 
+#mw-head .vector-menu-dropdown h3
+{
+    background-image: linear-gradient(to bottom, var(--gunmetal) 0, var(--pink) 100%) !important;
+}
+
+input
+{
+    background: var(--lavender-blue) !important;
+    color: var(--link) !important;
+}
+
+.searchButton
+{
+    background: var(--link) !important;
+    color: var(--lavender-blue) !important;
+}
+
+.mw-parser-output a[href$=".pdf"].external,
+.mw-parser-output a[href*=".pdf?"].external,
+.mw-parser-output a[href*=".pdf#"].external,
+.mw-parser-output a[href$=".PDF"].external, 
+.mw-parser-output a[href*=".PDF?"].external, 
+.mw-parser-output a[href*=".PDF#"].external
+{
+    background: url()
+}

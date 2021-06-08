@@ -16,13 +16,21 @@
   
     "content_scripts": 
         [
+
+            // test
             { 
                 "matches" : ["*://google.com/*"],
                 "css" : ["test.css"] 
             },
+            // akita
             {
                 "matches" : ["*://www.akitaonrails.com/*"],
                 "css" : ["css/akita.css"]
+            },
+            // wiki -> en
+            {
+                "matches" : ["*://en.wikipedia.org/*"],
+                "css" : ["css/wiki.css"]
             }
         ]
 
