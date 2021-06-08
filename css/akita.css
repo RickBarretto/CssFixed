@@ -144,3 +144,9 @@ body::-webkit-scrollbar-button
 {
     background-color: var(--lavender-blue) !important;
 }
+
+/*Hiding because it's broken on Brave Browser*/
+.menu > ul
+{
+    display: none;
+}
