@@ -17,11 +17,6 @@
     "content_scripts": 
         [
 
-            // test
-            { 
-                "matches" : ["*://google.com/*"],
-                "css" : ["test.css"] 
-            },
             // akita
             {
                 "matches" : ["*://www.akitaonrails.com/*"],
