@@ -36,11 +36,6 @@ body, div, td, .infobox, table
     border-color: var(--link) !important;
 }
 
-#mw-head
-{
-    box-shadow: black 0 0 5rem !important;
-}
-
 h1
 {
     position: -webkit-sticky !important;
@@ -130,3 +125,31 @@ input
 {
     background: url()
 }
+
+.vector-menu-content,
+.noprint,
+.mw-head
+{
+    display: none;
+}
+
+#mw-head
+{
+    width: auto !important;
+}
+
+body::-webkit-scrollbar,
+body::-webkit-scrollbar-corner
+{
+    width: calc(.9rem + 1px) !important;
+    background: var(--gunmetal) !important;
+    box-shadow: inset black 0 0 10px !important;
+}
+   
+body::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-button
+{
+    background-color: var(--lavender-blue) !important;
+}
+
+
