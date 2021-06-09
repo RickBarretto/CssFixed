@@ -4,7 +4,7 @@
 
 This project started when I was reading the [Akita On Rails Blog](https://www.akitaonrails.com/), a awesome blog about the Software world, but some things made me uncomfortable about the layout, like the theme (white theme: awful to reading, especially at night) and the web links (``<a href="...">``) that are almost the same color as the normal text. 
 
-<sup>Nothing against Akita's website, on the contrary, I love reading it. But the first name I thought of for this project was: AkitaOnRailsFixed! :stuck_out_tongue_winking_eye:</sup>
+<sup>Nothing against [Akita](https://github.com/akitaonrails)'s website, on the contrary, I love reading it. But the first name I thought of for this project was: AkitaOnRailsFixed! :stuck_out_tongue_winking_eye:</sup>
 
 So, I think to expand this project, and make more changes in other websites, like [Wikipedia](https://www.wikipedia.org/).
 
