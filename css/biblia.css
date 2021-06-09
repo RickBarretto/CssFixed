@@ -96,3 +96,18 @@ span > svg
 {
     fill: var(--link) !important;
 }
+
+
+body::-webkit-scrollbar,
+body::-webkit-scrollbar-corner
+{
+    width: calc(.9rem + 1px) !important;
+    background: var(--gunmetal) !important;
+    box-shadow: inset black 0 0 10px !important;
+}
+   
+body::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-button
+{
+    background-color: var(--lavender-blue) !important;
+}
