@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+:root 
+{
+    --gunmetal: #30343fff;
+    --ghost-white: #fafaffff;
+    --lavender-blue: #e4d9ffff;
+    --link: #e83e8c;
+    --orange: #FB542B;
+    --purple: #4f30ab;
+    --pink: #a3278f;
+}
+
+::selection
+{
+    background: var(--pink);
+    color: var(--ghost-white);
+}
+
+body, ul.MuiList-root.MuiMenu-list.MuiList-padding
+{
+    background: var(--gunmetal) !important;
+    color: var(--lavender-blue) !important;
+    font-family: 'Merriweather', serif !important;
+}
+
+li:hover
+{
+    background: var(--lavender-blue) !important;
+    color: var(--orange) !important;
+}
+
+h1
+{
+    color: var(--ghost-white) !important;
+}
+p
+{
+    text-align: justify !important;
+}
+p, h2
+{
+    color: var(--lavender-blue) !important;
+}
+h3, h4
+{
+    color: var(--gunmetal) !important;
+}
+
+a
+{
+    color: var(--link) !important;
+}
+
+button
+{
+    color: var(--link) !important;
+}
+
+header
+{
+    background: linear-gradient(
+        45deg,
+        var(--orange), var(--link)   
+    ) !important;
+    box-shadow: black 0 0 5rem !important;
+}
+
+.jss18, .jss26, input, form, .MuiInputBase-root
+{
+    background: var(--gunmetal) !important;
+}
+
+div.jss28
+{
+    background: transparent !important;
+}
+
+div.jss11, div.jss29, div.jss28
+{
+    background: transparent !important;
+}
+
+input,
+header > div > button > span
+{
+    color: var(--lavender-blue) !important;
+}
+
+header > div > button > span > svg
+{
+    fill: var(--lavender-blue) !important;
+}
+
+span > svg
+{
+    fill: var(--link) !important;
+}

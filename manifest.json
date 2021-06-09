@@ -26,6 +26,11 @@
             {
                 "matches" : ["*://*.wikipedia.org/*"],
                 "css" : ["css/wiki.css"]
+            },
+            // biblia
+            {
+                "matches" : ["https://www.bibliaonline.com.br/*"],
+                "css" : ["css/biblia.css"]
             }
         ]
 
