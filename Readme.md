@@ -13,7 +13,7 @@ So, I think to expand this project, and make more changes in other websites, lik
 
 ## Can I modify it?
 
-Yes, you can modify this code, it's under the [MIT License](), and you can modify forking it on your account.
+Yes, you can modify this code, it's under the [MIT License](https://github.com/RickBarretto/CssFixed/blob/main/LICENSE), and you can modify forking it on your account.
 > Don't know how to fork it? [Loot it!](https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo)
 > 
 > Don't know how to use git? [Git basic!](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) | [Github Cheat Sheet!](https://training.github.com/downloads/github-git-cheat-sheet/)
